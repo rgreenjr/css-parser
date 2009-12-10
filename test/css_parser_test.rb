@@ -2,7 +2,7 @@ require 'rubygems'
 require 'test/unit'
 require 'treetop'
 
-Treetop.load(File.expand_path("#{File.dirname(__FILE__)}/css"))
+Treetop.load(File.expand_path("#{File.dirname(__FILE__)}/../css"))
 
 class CssParserTest < Test::Unit::TestCase
 
@@ -15,7 +15,7 @@ class CssParserTest < Test::Unit::TestCase
   end
   
   def test_to_s
-    puts assert_parse(@text4)
+    # puts assert_parse(@text4)
   end
 
   def assert_parse(input)
