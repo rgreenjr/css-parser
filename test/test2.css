@@ -1,0 +1,65 @@
+#sidebar h2, h3 {
+  letter-spacing: 1px;
+}
+.narrow {
+  width: 150px;
+}
+#search_terms {
+  width:        180px;
+  margin-right: 5px;
+}
+
+#content {
+  padding-left: 10px;
+
+  border-left:  1px solid #BBBBBB;
+}
+h1, h2, h3, h4, h5, h6 {
+	letter-spacing: 4px;
+	font-variant:   small-caps;
+}
+h3, h5 {
+	letter-spacing: 2px;
+}
+h5, h6 {
+	letter-spacing: 1px;
+}
+pre {
+	padding-left:  10px;
+
+	border-top:    1px dashed #BC0000;
+	border-bottom: 1px dashed #BC0000;
+}
+code {
+	font-family: 'Courier New', monospace;
+}
+.details {
+  padding:       2px 0px;
+  color:         #999999;
+
+  border-top:    1px dashed #BBBBBB;
+  border-bottom: 1px dashed #BBBBBB;
+}
+.comment, #new_comment {
+  border-top: 1px solid #BBBBBB;
+}
+.comment .details {
+  border-top: 0px;
+}
+.comment .details .name {
+  font-weight: bold;
+}
+.comment .details .actions {
+  font-size: 0.8em;
+}
+.actions {
+  font-size:      0.6em;
+  font-variant:   normal;
+  letter-spacing: 1px;
+}
+.wide {
+  width: 520px;
+}
+.pagination {
+  color: #999999;
+}
